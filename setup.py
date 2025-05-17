@@ -1,0 +1,26 @@
+from setuptools import setup, find_packages
+setup(
+    name="LSD",
+    version="0.1",
+    packages=find_packages(),
+    install_requires=[
+        "fastapi",
+        "uvicorn",
+        "sqlalchemy",
+        "pydantic",
+        "python-jose",
+        "passlib",
+        "python-multipart",
+        "opencv-python",
+        "numpy",
+        "requests",
+        "google-auth-oauthlib",
+        "google-auth-httplib2",
+        "google-api-python-client",
+        "python-dotenv",
+        "beautifulsoup4",
+        "googlesearch-python",
+        "langdetect",
+        "googletrans==3.1.0a0"
+    ],
+) 
