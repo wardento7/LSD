@@ -22,5 +22,6 @@ setup(
         "googlesearch-python",
         "langdetect",
         "googletrans==3.1.0a0"
+        "psycopg2-binary==2.9.10"
     ],
 ) 
